@@ -1,0 +1,37 @@
+{
+  "name": "with-chakra-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "generate-cache": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node -r dotenv/config src/shared/makeCache.ts",
+    "dev": "next dev",
+    "build": "ts-node src/shared/makeCache.ts && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@graphile-contrib/pg-order-by-related": "^1.0.0-beta.6",
+    "@graphile-contrib/pg-simplify-inflector": "^6.0.0",
+    "@material-ui/core": "^4.11.0",
+    "@vercel/node": "^1.7.2",
+    "classnames": "^2.2.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "emotion-theming": "^10.0.27",
+    "graphiql": "^1.0.3",
+    "graphiql-explorer": "^0.6.2",
+    "graphql": "15.3.0",
+    "graphql-playground-react": "^1.7.23",
+    "next": "^9.4.4",
+    "next-connect": "^0.8.1",
+    "pg": "^8.3.0",
+    "postgraphile": "^4.7.0",
+    "postgraphile-plugin-connection-filter": "^2.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "ts-node": "^8.10.2"
+  }
+}
