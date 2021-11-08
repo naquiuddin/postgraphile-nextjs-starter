@@ -23,7 +23,7 @@
     "graphiql": "^1.0.3",
     "graphiql-explorer": "^0.6.2",
     "graphql": "15.3.0",
-    "graphql-playground-react": "^1.7.23",
+    "graphql-playground-react": "^1.7.28",
     "next": "^9.4.4",
     "next-connect": "^0.8.1",
     "pg": "^8.3.0",
